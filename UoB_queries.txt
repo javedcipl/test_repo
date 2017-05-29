@@ -1,0 +1,2 @@
+14 dec 16
+ALTER TABLE `document_signature` ADD `is_deleted` INT(4) NOT NULL DEFAULT '0' COMMENT '0->Not Deleted,1->Deleted' AFTER `last_updated`;
